@@ -1,7 +1,7 @@
 #
 # @lc app=leetcode.cn id=102 lang=python3
 #
-# [102] ¶þ²æÊ÷µÄ²ã´Î±éÀú
+# [102] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½Î±ï¿½ï¿½ï¿½
 #
 
 # @lc code=start
@@ -12,11 +12,10 @@
 #         self.left = None
 #         self.right = None
 
-# 1. ¿ªÊ¼Ê±£¬¶ÓÁÐhelperÖ»ÓÐ¸ù½Úµã£¬·ÃÎÊhelperÖÐµÄÃ¿Ò»¸ö½Úµã
-#    ÒÀ´Î½«½ÚµãµÄÖµ±£´æÔÚÁÐ±ínew_helperÖÐ£¬²¢½«½ÚµãµÄ×óÓÒº¢×Ó½Úµã(Èç¹ûÓÐ)¼ÓÈëµ½this_layer_result
-# 2. ÓÃnew_helperÌæ»»helper£¬¼ÌÐø±éÀú£¬Ö±µ½helperÎª¿Õ
+# 1. å¼€å§‹æ—¶ï¼Œé˜Ÿåˆ—helperåªæœ‰æ ¹èŠ‚ç‚¹ï¼Œè®¿é—®helperä¸­çš„æ¯ä¸€ä¸ªèŠ‚ç‚¹
+#    ä¾æ¬¡å°†èŠ‚ç‚¹çš„å€¼ä¿å­˜åœ¨åˆ—è¡¨new_helperä¸­ï¼Œå¹¶å°†èŠ‚ç‚¹çš„å·¦å³å­©å­èŠ‚ç‚¹(å¦‚æžœæœ‰)åŠ å…¥åˆ°this_layer_result
+# 2. ç”¨new_helperæ›¿æ¢helperï¼Œç»§ç»­éåŽ†ï¼Œç›´åˆ°helperä¸ºç©º
 
-# (Ã¿´Îwhile helperÑ­»·¿ªÊ¼Ê±£¬helperÖÐ¶¼ÊÇ´æ·Åµ±Ç°²ãµÄËùÓÐ½Úµã)
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
