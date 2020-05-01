@@ -17,7 +17,7 @@ class Solution:
             """
             if 满足条件
                 res.append(路径)
-                returns
+                return
             """
             if row == len(board):
                 tmp_list = []
