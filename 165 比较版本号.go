@@ -14,7 +14,7 @@ func compareVersion(version1 string, version2 string) int {
 	}
 
 	l := len(v1)
-	for i:=0; i<l; i++ {
+	for i := 0; i < l; i++ {
 		// 先把 00001 这种的左边的0全部清除
 		vs1 := strings.TrimLeft(v1[i], "0")
 		vs2 := strings.TrimLeft(v2[i], "0")
